@@ -1,0 +1,105 @@
+/*Todos*/
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;      
+  }
+  
+  /*Nomes das recomendações*/
+  .admin-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    padding: 1rem;
+    border: 5px solid orange;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .admin-info h2 {
+    margin-bottom: 1rem;
+    color: #544cb4;
+  }
+  
+  .admin-info p {
+    margin: 0.5rem 0;
+    color: #544cb4;
+  }
+  
+  /*Buttoes com A*/
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .grid-link, .main-link {
+    display: block;
+    text-align: center;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .grid-link:hover, .main-link:hover {
+    background-color: #0056b3;
+  }
+  
+  .main-link {
+    margin-top: 20px;
+    align-self: center; /* Centraliza o link principal horizontalmente */
+    margin-bottom: 15px;
+  }
+  
+  .tabela table {
+    width: 700px;
+    border-collapse: collapse;
+    border: 3px solid #000; /* Adicionando borda à tabela */
+    border-radius: 8px; /* Adicionando borda arredondada */
+  }
+  
+  .tabela th, .tabela td {
+    padding: 12px; /* Aumentando o espaçamento interno das células */
+    border: 3px solid #000; /* Adicionando borda às células */
+  }
+  
+  .tabela th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .tabela tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  td {
+    background-color: #fff;
+    text-align: center;
+    color: #544cb4;
+    font-size: 18px;
+  }
+
+  a{
+    color: #544cb4;
+    font-size: 18px;
+  }
+
+  .adm{
+    color: White;
+  }
+  
